@@ -1,0 +1,96 @@
+body {
+    border-color: black;
+    border: 20px;
+}
+
+.containertitulo {
+    border-bottom: 10px;
+    border-color: black;
+}
+
+h1 {
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    margin-left: 34%;
+    margin-top: 50px;
+    margin-bottom: 5px;
+}
+
+.containerdatosp {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: start;
+}
+
+.datosper1 {
+    font-family: arial;
+    width: 40%;
+    height: auto;
+    margin: 20px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    text-align: end;
+}
+
+.datosper2 {
+    font-family: arial;
+    width: 40%;
+height: auto;
+margin: 20px;
+margin-top: 2px;
+margin-bottom: 2px;
+}
+
+h2 {
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    color: aliceblue;
+    background-color: black;
+    padding-left: 40%;
+}
+
+h3 {
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    padding-left: 10%;
+}
+
+.containerimage {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+}
+
+.imagecv {
+    
+    width: 30%;
+    height: auto;
+    border-radius: 10px;
+    margin: 25px;
+}
+
+.containerinfo {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 10%;
+    margin-right: 10%;
+    align-items: flex-start;
+    width: 40%;
+    height: auto;
+}
+
+.info {
+    font-family: Arial;
+    
+}
+
+ul {
+    font-family: Arial;
+}
